@@ -1,0 +1,50 @@
+.game-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.Board {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.player {
+	height: 30px;
+	width: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #303030;
+	color: #50c8ff;
+	border-radius: 5px;
+}
+
+table {
+	border-spacing: 0px;
+}
+
+.button {
+	height: 30px;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #303030;
+	color: #50c8ff;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.button:hover {
+	color: #303030;
+	background-color: #50c8ff;
+	transition: background-color 0.5s, color 0.5s;
+}
